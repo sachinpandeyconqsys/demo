@@ -1,0 +1,14 @@
+#:E:\project\SampleApp.netCore\Server\src\SampleApp\SampleApp.API\SampleApp.API.xproj
+E:\project\SampleApp.netCore\Server\src\SampleApp\SampleApp.API\SampleApp.API.xproj|E:\project\SampleApp.netCore\Server\src\Base\SampleApp.Base\SampleApp.Base.xproj
+E:\project\SampleApp.netCore\Server\src\SampleApp\SampleApp.API\SampleApp.API.xproj|E:\project\SampleApp.netCore\Server\src\Common\SampleApp.BusinessLogic.Common\SampleApp.BusinessLogic.Common.xproj
+E:\project\SampleApp.netCore\Server\src\SampleApp\SampleApp.API\SampleApp.API.xproj|E:\project\SampleApp.netCore\Server\src\SampleApp\SampleApp.BusinessLogic\SampleApp.BusinessLogic.xproj
+E:\project\SampleApp.netCore\Server\src\SampleApp\SampleApp.API\SampleApp.API.xproj|E:\project\SampleApp.netCore\Server\src\SampleApp\SampleApp.DataAccess\SampleApp.DataAccess.xproj
+E:\project\SampleApp.netCore\Server\src\Common\SampleApp.BusinessLogic.Common\SampleApp.BusinessLogic.Common.xproj|E:\project\SampleApp.netCore\Server\src\Base\SampleApp.Base\SampleApp.Base.xproj
+E:\project\SampleApp.netCore\Server\src\Common\SampleApp.BusinessLogic.Common\SampleApp.BusinessLogic.Common.xproj|E:\project\SampleApp.netCore\Server\src\Common\SampleApp.DataAccess.Common\SampleApp.DataAccess.Common.xproj
+E:\project\SampleApp.netCore\Server\src\Common\SampleApp.DataAccess.Common\SampleApp.DataAccess.Common.xproj|E:\project\SampleApp.netCore\Server\src\Base\SampleApp.Base\SampleApp.Base.xproj
+E:\project\SampleApp.netCore\Server\src\SampleApp\SampleApp.BusinessLogic\SampleApp.BusinessLogic.xproj|E:\project\SampleApp.netCore\Server\src\Base\SampleApp.Base\SampleApp.Base.xproj
+E:\project\SampleApp.netCore\Server\src\SampleApp\SampleApp.BusinessLogic\SampleApp.BusinessLogic.xproj|E:\project\SampleApp.netCore\Server\src\Common\SampleApp.BusinessLogic.Common\SampleApp.BusinessLogic.Common.xproj
+E:\project\SampleApp.netCore\Server\src\SampleApp\SampleApp.BusinessLogic\SampleApp.BusinessLogic.xproj|E:\project\SampleApp.netCore\Server\src\SampleApp\SampleApp.DataAccess\SampleApp.DataAccess.xproj
+E:\project\SampleApp.netCore\Server\src\SampleApp\SampleApp.DataAccess\SampleApp.DataAccess.xproj|E:\project\SampleApp.netCore\Server\src\Common\SampleApp.API.Common\SampleApp.API.Common.xproj
+E:\project\SampleApp.netCore\Server\src\SampleApp\SampleApp.DataAccess\SampleApp.DataAccess.xproj|E:\project\SampleApp.netCore\Server\src\Base\SampleApp.Base\SampleApp.Base.xproj
+E:\project\SampleApp.netCore\Server\src\Common\SampleApp.API.Common\SampleApp.API.Common.xproj|E:\project\SampleApp.netCore\Server\src\Common\SampleApp.BusinessLogic.Common\SampleApp.BusinessLogic.Common.xproj

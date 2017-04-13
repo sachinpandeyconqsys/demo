@@ -1,0 +1,65 @@
+<div class="first" style="background-color: #FFC900;"><h4 style="padding: 1%"><i class="fa fa-life-ring" aria-hidden="true"></i><b> Workflow</b></h4>
+</div>
+<div class="ui-grid ui-grid-responsive ui-grid-pad">
+
+    <div class="ui-grid-row" style="padding-top:10px;">
+<div class="ui-grid-col-12">
+    <b class="first">This user can route documents to:</b>
+    <div style="    color: #75797b;">
+        You may restrict the queue this user can route their documents to. Please select which queue you would like this user to
+        be able to route document to. This user can route to
+    </div>
+    <div class="ui-grid-row" style="padding-top:10px;padding-left: 1%;"> This user can route to
+
+</div>
+<div class="ui-grid-row" style="padding-left: 1%;">
+    <p-dropdown [options]="users" [(ngModel)]="selectedUser" [style]="{'width':'150px'}"></p-dropdown>
+</div>
+<div class="ui-grid-row" style="padding-top:50px;">
+<b>Workflow queues this user can see:</b>
+
+</div>
+<div class="ui-grid-row" style="color: #75797b;">
+    You may restrict which queue this user can see in addition to their own.If you would like this user to be able to see every
+    queue please select the "Workflow Admin" checkbox.
+</div>
+<div class="ui-grid-row">
+    Workflow Admin
+</div>
+<div style="padding-left:2%">
+    Allow this user to have access to all queues just as they would their own.
+
+    <p-checkbox [(ngModel)]="checked" binary="true"></p-checkbox>
+</div>
+<div style="padding-top:20px;" *ngIf="!checked">
+<div class="ui-grid-row">
+    All available queue in this cabinet
+</div>
+<div class="ui-grid-col-5 queue">
+
+    <div *ngFor="let queue of userDetail.queues | orderbyPipe:'value' ; let ind = index" (click)="onSelectQueue(queue)" [ngClass]="{'menu_item':true, 'menu_hoverItem': (selectedIndex !== ind), 'menu_selectedItem': (selectedIndex === ind) }" >
+        <div style="padding: 2%;" *ngIf="!queue.isCheck">
+<div class="first" >
+   <span style="cursor: pointer;"  > {{queue.name}}</span>
+</div>
+
+</div>
+</div>
+</div>
+<div class=" ui-grid-col-2 arrow">
+ 
+</div>
+<div class="ui-grid-col-5 queue">
+    <div *ngFor="let queue of userDetail.queues | orderbyPipe:'value' ; let ind = index"  (click)="onSelectQueue(queue)"  [ngClass]="{'menu_item':true, 'menu_hoverItem': (selectedIndex !== ind), 'menu_selectedItem': (selectedIndex === ind) }"> 
+        <div style="padding: 2%;"  *ngIf="queue.isCheck">
+<div class="first">
+   <span style="cursor: pointer;"  >  {{queue.name}}</span>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>

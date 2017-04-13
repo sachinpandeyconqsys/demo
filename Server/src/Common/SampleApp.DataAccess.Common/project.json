@@ -1,0 +1,25 @@
+﻿{
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    "NETStandard.Library": "1.6.0",
+    "Newtonsoft.Json": "9.0.1",
+    "System.ComponentModel.Annotations": "4.3.0",
+    "Microsoft.AspNetCore.Mvc": "1.0.1",
+    "Dapper": "1.50.2",
+    "Microsoft.Extensions.Configuration.Binder": "1.0.0",
+    "SimpleStack.Orm": "1.0.2",
+    "SimpleStack.Orm.PostgreSQL": "1.0.2",
+    "SampleApp.Base": {
+      "target": "project"
+    },
+    "Microsoft.Extensions.Configuration.Json": "1.1.1",
+    "Microsoft.Extensions.Configuration": "1.1.1"
+  },
+
+  "frameworks": {
+    "netstandard1.6": {
+      "imports": "dnxcore50"
+    }
+  }
+}
